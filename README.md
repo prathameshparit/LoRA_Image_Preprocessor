@@ -1,10 +1,9 @@
-# Face Censor Tool
+# LoRA Image Preprocessor
 
 ## Overview
-This Python tool allows users to automatically detect and blur faces or other regions in photos and videos. The idea for this tool was inspired by the project [Blurry Faces](https://github.com/asmaamirkhan/BlurryFaces), and we've created a slightly custom manipulated version for specific use cases.
+This Python tool serves as a dedicated preprocessor for images intended for LoRA (Low-Rank Adaptation) training. It automates the detection and blurring of faces or specific regions in both photos and videos. The inspiration for this tool stems from the [Blurry Faces](https://github.com/asmaamirkhan/BlurryFaces) and [remove-photo-background](https://github.com/aryadytm/remove-photo-background) project, and I've tailored a modified version to cater to the unique requirements of LoRA training.
 
 ### Credits
 - [Asmaa Mirkhan](https://github.com/asmaamirkhan) for the original [Blurry Faces](https://github.com/asmaamirkhan) GitHub repository.
-- [aryadytm](https://github.com/aryadytm) for the code to remove the background, sourced from [remove-photo-background](https://github.com/aryadytm/remove-photo-background).
+- [aryadytm](https://github.com/aryadytm) for the background removal code, sourced from [remove-photo-background](https://github.com/aryadytm/remove-photo-background).
 
-We acknowledge the work done in the original repository and appreciate the contribution from aryadytm for the background removal code.
